@@ -10,7 +10,7 @@
     <slot name="header" />
     <h1
       :style="{ color: textColor }"
-      class="font-bold my-4"
+      class="font-bold my-4 cursor-pointer"
       :class="
         props.article.primary
           ? 'leading-[32px] sm:leading-[54px] text-2xl sm:text-[40px]'
