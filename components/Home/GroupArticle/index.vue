@@ -17,11 +17,15 @@
         :text-color="isMobile ? '#000000' : '#FFFFFF'"
       />
     </div>
-    <home-group-article-secondary />
+    <home-group-article-secondary
+      :first-article="fourth"
+      :second-article="fifth"
+      :text-color="isMobile ? '#000000' : '#FFFFFF'"
+    />
   </div>
 </template>
 <script setup>
-import { first, second, third } from "@/data/GroupArticles.js";
+import { first, second, third, fourth, fifth } from "@/data/GroupArticles.js";
 
 const isMobile = ref(window?.innerWidth < 640);
 
