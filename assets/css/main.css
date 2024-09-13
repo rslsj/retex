@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-anybody;
+}
+
+.sbr {
+  border: 1px solid red;
+}
+.sbb {
+  border: 1px solid black;
+}
+.sbg {
+  border: 1px solid green;
+}
+
+.bt {
+  border-top: 1px solid black;
+}
+.bb {
+  border-bottom: 1px solid black;
+}
+.br {
+  border-right: 1px solid black;
+}
+.bl {
+  border-left: 1px solid black;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.border-shadow {
+  border: 1px solid black;
+  box-shadow: -3px 3px 0px 0px black;
+  border-radius: 4px;
+}
