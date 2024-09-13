@@ -46,6 +46,7 @@ export const featuredArticleSecondaryTwo = {
   link: "/",
   label: {
     text: "Ucraina",
+    color: "#F0E2F1",
   },
   title: "Nelle città italiane tutti in piazza per e con Kiev",
   author: {

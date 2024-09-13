@@ -32,6 +32,7 @@ export const third = {
   link: "/",
   label: {
     text: "Economia Civile",
+    color: "#F0E2F1",
   },
   title:
     "“Co-agitiamo”, Tiggiano una cooperativa di comunità contro lo spopolamento",
@@ -39,5 +40,34 @@ export const third = {
     img: "/assets/articles/authors/alessandro-puglia.png",
     name: "Di Emiliano Moccia",
     date: "12 Luglio 2022 ",
+  },
+};
+
+export const fourth = {
+  primary: false,
+  link: "/",
+  label: {
+    text: "Sport",
+    color: "#F0E2F1",
+  },
+  title: "Troppi abusi nello sport minorile, il governo interviene",
+  author: {
+    img: "/assets/articles/authors/alessandro-puglia.png",
+    name: "Di Diletta Grella",
+    date: "7 Luglio 2022 ",
+  },
+};
+
+export const fifth = {
+  primary: false,
+  link: "/",
+  label: {
+    text: "Società",
+  },
+  title: "Donne e nuove generazioni: con loro riparte l’Italia",
+  author: {
+    img: "/assets/articles/authors/alessandro-puglia.png",
+    name: "Di Anna Spena",
+    date: "7 Luglio 2022",
   },
 };
