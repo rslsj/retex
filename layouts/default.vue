@@ -7,5 +7,6 @@
     <div class="pt-[127px] sm:pt-[237px]">
       <slot />
     </div>
+    <common-footer />
   </div>
 </template>
