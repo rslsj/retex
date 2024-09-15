@@ -19,9 +19,12 @@
       class="flex flex-col items-center"
     >
       <img class="mt-4 cursor-pointer" :src="blog?.img" alt="arrow-black" />
-      <h2 class="font-bold text-base md:text-lg leading-7 mt-4">
+      <NuxtLink
+        :to="blog?.link"
+        class="font-bold text-base md:text-lg leading-7 mt-4"
+      >
         {{ blog?.title }}
-      </h2>
+      </NuxtLink>
       <h3 class="text-sm font-light leading-6 md:text-base">
         {{ blog?.author }}
       </h3>

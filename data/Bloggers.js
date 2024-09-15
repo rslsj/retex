@@ -5,6 +5,7 @@ export const bloggers = [
     img: null,
     author: null,
     mobile: null,
+    link: "/",
   },
   {
     cartTitle: null,
@@ -12,6 +13,7 @@ export const bloggers = [
     img: "/assets/bloggers/a1.png",
     author: "Di Paolo Dell’Oca",
     mobile: null,
+    link: "/",
   },
   {
     cartTitle: null,
@@ -19,6 +21,7 @@ export const bloggers = [
     img: "/assets/bloggers/a2.png",
     author: "Di Pasquale Pugliese",
     mobile: null,
+    link: "/",
   },
   {
     cartTitle: null,
@@ -26,6 +29,7 @@ export const bloggers = [
     img: "/assets/bloggers/a3.png",
     author: "Di Lorenzo Maria Alvaro",
     mobile: null,
+    link: "/",
   },
   {
     cartTitle: null,
@@ -33,6 +37,7 @@ export const bloggers = [
     img: "/assets/bloggers/a4.png",
     author: "Di Elena Zanella",
     mobile: null,
+    link: "/",
   },
   {
     cartTitle: null,
@@ -40,5 +45,6 @@ export const bloggers = [
     img: "/assets/bloggers/a5.png",
     author: "Di Laura Orestano",
     mobile: "Tutti i blog",
+    link: "/",
   },
 ];
