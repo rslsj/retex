@@ -24,6 +24,7 @@
           v-for="(footerItem, index) in itemsFooter"
           :key="index"
           :text="footerItem.text"
+          :class="getClassFooter(index)"
         />
       </div>
     </div>
@@ -62,6 +63,8 @@ onBeforeUnmount(() => {
   window.removeEventListener("resize", handleResize);
 });
 
+// TODO: refactor border management
+
 const getClass = (index) => {
   if (isMobile.value) {
     return "bb";
@@ -71,9 +74,21 @@ const getClass = (index) => {
   } else if (index === 2) {
     return "";
   } else if (index === 5) {
-    return "bt";
+    return "bt bb";
   } else {
-    return "bt br";
+    return "bt br bb";
+  }
+};
+
+const getClassFooter = (index) => {
+  if (isMobile.value && index % 2 === 0) {
+    return "bb br";
+  } else if (isMobile.value && index % 2 !== 0) {
+    return "bb";
+  } else if (!isMobile.value && index !== 5) {
+    return "br";
+  } else {
+    return "";
   }
 };
 </script>
