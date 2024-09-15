@@ -25,12 +25,14 @@
       :text-color="textColor"
       :primary="props.article.primary"
     />
-    <img
-      v-show="!isMobile && !props.article.primary"
-      class="mt-4 cursor-pointer"
-      src="/assets/icons/arrow-white.png"
-      alt="arrow-white"
-    />
+    <NuxtLink :to="props.article.link">
+      <img
+        v-show="!isMobile && !props.article.primary"
+        class="mt-4 cursor-pointer"
+        src="/assets/icons/arrow-white.png"
+        alt="arrow-white"
+      />
+    </NuxtLink>
   </div>
 </template>
 
