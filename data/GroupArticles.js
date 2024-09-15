@@ -6,7 +6,7 @@ export const first = {
   },
   title: '“Qui Odessa”, fotografie, progetti e solidarietà"',
   author: {
-    img: "/assets/articles/authors/alessandro-puglia.png",
+    img: "/assets/articles/authors/au5.png",
     name: "Di Redazione",
     date: "13 Luglio 2022 ",
   },
@@ -21,7 +21,7 @@ export const second = {
   title:
     "Storie fra ragazzi permeate di violenza. A Napoli 12enne sfregiata da 17enne",
   author: {
-    img: "/assets/articles/authors/alessandro-puglia.png",
+    img: "/assets/articles/authors/au6.png",
     name: "Di Luca Cereda",
     date: "13 Luglio 2022 ",
   },
@@ -37,7 +37,7 @@ export const third = {
   title:
     "“Co-agitiamo”, Tiggiano una cooperativa di comunità contro lo spopolamento",
   author: {
-    img: "/assets/articles/authors/alessandro-puglia.png",
+    img: "/assets/articles/authors/au7.png",
     name: "Di Emiliano Moccia",
     date: "12 Luglio 2022 ",
   },
@@ -52,7 +52,7 @@ export const fourth = {
   },
   title: "Troppi abusi nello sport minorile, il governo interviene",
   author: {
-    img: "/assets/articles/authors/alessandro-puglia.png",
+    img: "/assets/articles/authors/au3.png",
     name: "Di Diletta Grella",
     date: "7 Luglio 2022 ",
   },
@@ -66,7 +66,7 @@ export const fifth = {
   },
   title: "Donne e nuove generazioni: con loro riparte l’Italia",
   author: {
-    img: "/assets/articles/authors/alessandro-puglia.png",
+    img: "/assets/articles/authors/au8.png",
     name: "Di Anna Spena",
     date: "7 Luglio 2022",
   },

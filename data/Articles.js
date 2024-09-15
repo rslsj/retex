@@ -21,7 +21,7 @@ export const featuredArticleMain = {
   title:
     "Il collasso dei ghiacciai negli scatti del fotografo ambientale Fabiano Ventura",
   author: {
-    img: "/assets/articles/authors/alessandro-puglia.png",
+    img: "/assets/articles/authors/au2.png",
     name: "Di Ugo Lombi",
     date: "14 luglio 2022",
   },
@@ -35,7 +35,7 @@ export const featuredArticleSecondaryOne = {
   },
   title: "Gli startupper? Li trovi al bistrot. Così il DumBo incuba relazioni",
   author: {
-    img: "/assets/articles/authors/alessandro-puglia.png",
+    img: "/assets/articles/authors/au3.png",
     name: "Di Diletta Grella",
     date: "14 Luglio 2022",
   },
@@ -50,7 +50,7 @@ export const featuredArticleSecondaryTwo = {
   },
   title: "Nelle città italiane tutti in piazza per e con Kiev",
   author: {
-    img: "/assets/articles/authors/alessandro-puglia.png",
+    img: "/assets/articles/authors/au4.png",
     name: "Di Anna Spena",
     date: "14 Luglio 2022 ",
   },

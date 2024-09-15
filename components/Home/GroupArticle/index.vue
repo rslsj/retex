@@ -7,7 +7,7 @@
       <div>
         <home-group-article-item
           :article="second"
-          class="bg-primary sbb"
+          class="bg-primary bt bb sm:border-none"
           :text-color="isMobile ? '#000000' : '#FFFFFF'"
         />
       </div>

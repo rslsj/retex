@@ -4,13 +4,13 @@
   >
     <div class="flex grow sm:flex-none">
       <div
-        class="flex justify-center items-center grow sm:flex-none sm:border-none py-2 sm:py-0 cursor-pointer bl bt br"
+        class="flex justify-center items-center grow sm:flex-none sm:border-none py-2 sm:py-0 cursor-pointer bt br"
       >
         <NuxtLink to="/contribute">Contribuisci</NuxtLink>
       </div>
       <span class="mx-0 sm:mx-2" />
       <div
-        class="flex justify-center items-center grow sm:flex-none sm:border-none py-2 sm:py-0 cursor-pointer bt br"
+        class="flex justify-center items-center grow sm:flex-none sm:border-none py-2 sm:py-0 cursor-pointer bt"
       >
         <NuxtLink to="/subscribe">Abbonati</NuxtLink>
       </div>
