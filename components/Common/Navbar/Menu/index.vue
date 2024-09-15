@@ -16,6 +16,7 @@
           :title="item.title"
           :subtitle="item.subtitle"
           :class="getClass(index)"
+          :link="item.link"
         />
       </div>
 
@@ -25,6 +26,7 @@
           :key="index"
           :text="footerItem.text"
           :class="getClassFooter(index)"
+          :link="footerItem.link"
         />
       </div>
     </div>
