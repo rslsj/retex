@@ -6,13 +6,13 @@
       <div
         class="flex justify-center items-center grow sm:flex-none sm:border-none py-2 sm:py-0 cursor-pointer bt br"
       >
-        <NuxtLink to="/contribute">Contribuisci</NuxtLink>
+        <NuxtLink to="/">Contribuisci</NuxtLink>
       </div>
       <span class="mx-0 sm:mx-2" />
       <div
         class="flex justify-center items-center grow sm:flex-none sm:border-none py-2 sm:py-0 cursor-pointer bt"
       >
-        <NuxtLink to="/subscribe">Abbonati</NuxtLink>
+        <NuxtLink to="/">Abbonati</NuxtLink>
       </div>
     </div>
     <div class="hidden sm:flex cursor-pointer"><h3>Accedi</h3></div>
