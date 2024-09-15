@@ -17,38 +17,5 @@
   </div>
 </template>
 <script setup>
-const itemsMenu = [
-  {
-    title: "Articoli",
-    subtitle: "Trend, dati e novità del Terzo Settore.",
-  },
-  {
-    title: "Storie",
-    subtitle: "Letture ed approfondimenti dei fenomeni complessi.",
-  },
-  {
-    title: "Interviste",
-    subtitle: "Racconti reali di persone ed organizzazioni.",
-  },
-  {
-    title: "Opinioni",
-    subtitle: "Riflessioni e confronti dei nostri opinionisti.",
-  },
-  {
-    title: "Podcast",
-    subtitle: "Un luogo per dare voce ai protagonisti della sostenibilità.",
-  },
-  {
-    title: "Bookazine",
-    subtitle: "Una rivista da leggere e un libro da conservare.",
-  },
-];
-const itemsFooter = [
-  { text: "Chi siamo" },
-  { text: "Comitato editoriale" },
-  { text: "Servizi" },
-  { text: "Agenda / Eventi" },
-  { text: "Mappa dell’attivismo" },
-  { text: "Inchieste crowdfunding" },
-];
+import { itemsMenu, itemsFooter } from "@/data/Navbar.js";
 </script>
