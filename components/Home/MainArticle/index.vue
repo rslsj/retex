@@ -10,7 +10,7 @@ import { mainArticle } from "@/data/Articles.js";
 </script>
 <style scoped>
 .bg-desktop {
-  background-image: url("/assets/articles/main-desktop.jpg");
+  background-image: url("/assets/articles/main.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -1,0 +1,20 @@
+version: "3"
+services:
+  retex-fe:
+    build: 
+      context: ../..
+      dockerfile: operations/Dockerfile
+    container_name: retex_fe
+    image: retex_fe
+    ports:
+      - "4050:3000"
+    volumes:
+      - ../..:/app
+      - /app/node_modules
+    networks:
+      - retex_network
+    
+networks:
+ retex_network:
+    name: retex_network
+    external: true
