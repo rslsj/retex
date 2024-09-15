@@ -15,6 +15,7 @@
           :key="index"
           :title="item.title"
           :subtitle="item.subtitle"
+          :class="getClass(index)"
         />
       </div>
 
@@ -47,7 +48,36 @@ const props = defineProps({
     default: () => [],
   },
 });
+const isMobile = ref(window?.innerWidth < 640);
+
+const handleResize = () => {
+  isMobile.value = window?.innerWidth < 640;
+};
+
+onMounted(() => {
+  window.addEventListener("resize", handleResize);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener("resize", handleResize);
+});
+
+const getClass = (index) => {
+  if (isMobile.value) {
+    return "bb";
+  }
+  if (!isMobile.value && index < 2) {
+    return "br";
+  } else if (index === 2) {
+    return "";
+  } else if (index === 5) {
+    return "bt";
+  } else {
+    return "bt br";
+  }
+};
 </script>
+
 <style scoped>
 .menu-fade-enter-active,
 .menu-fade-leave-active {

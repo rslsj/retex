@@ -1,5 +1,5 @@
 <template>
-  <div class="sbb bg-white hover:bg-[#f5f5f5] cursor-pointer">
+  <div class="bg-white hover:bg-[#f5f5f5] cursor-pointer">
     <div class="hidden sm:flex h-[147px]"></div>
     <div class="h-[166px] flex flex-col justify-center p-8">
       <h1 class="text-5xl font-bold mb-4">{{ props.title }}</h1>
