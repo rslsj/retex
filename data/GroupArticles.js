@@ -9,6 +9,7 @@ export const first = {
     img: "/assets/articles/authors/au5.png",
     name: "Di Redazione",
     date: "13 Luglio 2022 ",
+    link: "/",
   },
 };
 
@@ -24,6 +25,7 @@ export const second = {
     img: "/assets/articles/authors/au6.png",
     name: "Di Luca Cereda",
     date: "13 Luglio 2022 ",
+    link: "/",
   },
 };
 
@@ -40,6 +42,7 @@ export const third = {
     img: "/assets/articles/authors/au7.png",
     name: "Di Emiliano Moccia",
     date: "12 Luglio 2022 ",
+    link: "/",
   },
 };
 
@@ -55,6 +58,7 @@ export const fourth = {
     img: "/assets/articles/authors/au3.png",
     name: "Di Diletta Grella",
     date: "7 Luglio 2022 ",
+    link: "/",
   },
 };
 
@@ -69,5 +73,6 @@ export const fifth = {
     img: "/assets/articles/authors/au8.png",
     name: "Di Anna Spena",
     date: "7 Luglio 2022",
+    link: "/",
   },
 };

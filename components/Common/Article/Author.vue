@@ -6,7 +6,9 @@
       alt="author"
     />
     <div :style="{ color: textColor }">
-      <h2 class="text-sm mb-2">{{ author.name }}</h2>
+      <NuxtLink :to="author.link" class="text-sm mb-2">{{
+        author.name
+      }}</NuxtLink>
       <h3 class="text-[10px] mt-2">{{ author.date }}</h3>
     </div>
   </div>
@@ -18,8 +20,9 @@ const props = defineProps({
     type: Object,
     default: () => ({
       img: "/assets/articles/authors/author.png",
-      name: "pippo pluto",
-      date: "metti data",
+      name: "name",
+      date: "date",
+      link: "/",
     }),
   },
   textColor: {

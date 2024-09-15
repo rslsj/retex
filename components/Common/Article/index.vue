@@ -8,7 +8,8 @@
       />
     </div>
     <slot name="header" />
-    <h1
+    <NuxtLink
+      :to="props.article.link"
       :style="{ color: textColor }"
       class="font-bold my-4 cursor-pointer"
       :class="
@@ -18,7 +19,7 @@
       "
     >
       {{ props.article.title }}
-    </h1>
+    </NuxtLink>
     <common-article-author
       :author="props.article.author"
       :text-color="textColor"

@@ -9,6 +9,7 @@ export const mainArticle = {
     img: "/assets/articles/authors/alessandro-puglia.png",
     name: "Alessandro Puglia",
     date: "29 Giugno 2022",
+    link: "/",
   },
 };
 
@@ -24,6 +25,7 @@ export const featuredArticleMain = {
     img: "/assets/articles/authors/au2.png",
     name: "Di Ugo Lombi",
     date: "14 luglio 2022",
+    link: "/",
   },
 };
 
@@ -38,6 +40,7 @@ export const featuredArticleSecondaryOne = {
     img: "/assets/articles/authors/au3.png",
     name: "Di Diletta Grella",
     date: "14 Luglio 2022",
+    link: "/",
   },
 };
 
@@ -53,5 +56,6 @@ export const featuredArticleSecondaryTwo = {
     img: "/assets/articles/authors/au4.png",
     name: "Di Anna Spena",
     date: "14 Luglio 2022 ",
+    link: "/",
   },
 };
